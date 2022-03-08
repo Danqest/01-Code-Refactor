@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <!-- Initialize the characterset to use,
+    link to the css stylesheet, 
+    the displayed title on the webpage tab, 
+    and the displayed favicon -->
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -11,7 +15,14 @@
     />
   </head>
 
+  <!-- Initialize the body of the webpage which contains the header,
+    the displayed hero figure,
+    the main written content on the page,
+    the sidebar content, 
+    and the footer -->
   <body>
+    <!-- Create the header which displays the company name & typefont,
+    and functional buttons/links to their associated main content-->
     <header class="header">
       <h1>Hori<span id="seo">seo</span>n</h1>
       <ul>
@@ -29,18 +40,29 @@
       </ul>
     </header>
 
+    <!-- Initialize the figure element and role,
+    display the hero image through a class with css,
+    and label the figure element for accessibility -->
     <figure
       role="img"
       class="hero-image"
       aria-label="Diverse digital marketing meeting."
     ></figure>
 
+    <!-- Initialize the main marketing content of the page (three articles),
+    standardize the format of the content through a class with css,
+    link each piece of content to the associated buttons in the header,
+    display images associated with the marketing content in a format with a standardized css class,
+    label each image for accessibility,
+    define the initial rendering size of each image,
+    display the written content.
+    -->
     <main>
       <article class="content-article" id="search-engine-optimization">
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
-          alt=""
+          alt="Notebook displaying visual representations of the benefits of search engine optimization"
           height="200"
         />
         <h2>Search Engine Optimization</h2>
@@ -56,7 +78,7 @@
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
-          alt=""
+          alt="Laptop displaying a positive visual representation of reputation through growing bar-charts and other graphs"
           height="200"
         />
         <h2>Online Reputation Management</h2>
@@ -73,7 +95,7 @@
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
-          alt=""
+          alt="Table displaying visual representions of social media icons notating tweets, likes, media, and shares"
           height="200"
         />
         <h2>Social Media Marketing</h2>
@@ -86,6 +108,12 @@
       </article>
     </main>
 
+    <!-- Initialize the aside content (three articles),
+    standardize the content formatting with a css class,
+    display icons associated with the content,
+    set an empty string to signify the decorative nature of the icons,
+    define the initial rendering size of each icon,
+    display the written content -->
     <aside>
       <article class="benefit">
         <h3>Lead Generation</h3>
@@ -115,6 +143,7 @@
       </article>
     </aside>
 
+    <!-- Initialize the footer and display footer content -->
     <footer>
       <h4>Made with ❤️️ by Horiseon</h4>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
