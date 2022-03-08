@@ -7,4 +7,4 @@ The original HTML and CSS code is written with an overall lack of semantic struc
 
 An example screenshot can be located in: ../assets/images/example-screenshot.jpg.
 
-A link to the deployed application can be located at:
+A link to the deployed application can be located at: https://danqest.github.io/01-Code-Refactor/
