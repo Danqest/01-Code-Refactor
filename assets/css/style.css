@@ -1,0 +1,123 @@
+/* Universal selector pre-defining box-sizing, padding, & margin */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* body Type selector defining font-sizing & background-color within the body element */
+body {
+  font-size: 16px;
+  background-color: #d9dcd6;
+}
+/* header Type selector defining padding, fonts, background-color, and text color within the header element*/
+header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+/* Type selector defining display positioning & font-size within the header element of h1 */
+h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+/* ID selector defining text color contained within the span element displaying the company name, emphasizing the letters "SEO" in HORISEON */
+#seo {
+  color: #d9dcd6;
+}
+/* Type selector defining padding, right margin, float location, fonts, and font size for the buttons/links in the header */
+ul {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+/* Type selector defining display positioning and left margin for the text itself in the buttons/links in the header */
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/* Type selector defining text color & lack of text decoration of the individual links/buttons in the header */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* Class selector for the hero image defining the dimensions, bottom margin, image file location, and positioning */
+.hero-image {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* Type selector defining the width, display positioning, and left margin of content in the main element */
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* Class selector defining bottom margin, padding, height, font, background color, and text color for content in the article elements within the main element */
+.content-article {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* Type selector defining the bottom margin and font size within the header element of h2 */
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* Class selector defining left float and right margin for images to be on the left */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+/* Class selector defining right float and left margin for images to be on the right */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* Type selector defining right margin, padding, float positioning, sizing, font, and background color of the aside element */
+aside {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+/* Class selector defining bottom margin and color of content using the benefit class */
+.benefit {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* Type selector defining display style and margin for the image content in the benefit class */
+.benefit img {
+  display: block;
+  margin: 10px auto;
+}
+/* Type selector defining the bottom margin and text alignment within the header element of h3 */
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Type selector defining the padding, font, and text aligment for content in the footer element */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+/* Type selector defining font size for content in the h4 element within the footer */
+h4 {
+  font-size: 20px;
+}
